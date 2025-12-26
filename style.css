@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,600&family=Kaisei+Opti:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,600&family=Kaisei+Opti:wght@400;700&family=Shippori+Mincho:wght@500&display=swap');
+body {
+    background-image: url(images/ラウンドアバウト_flyer-01.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color:rgba(255,255,255,0.7);
+    background-blend-mode:lighten;
+}
+#section1 {
+    width: 100%;
+    height: 92dvh;
+    display: flex;
+    flex-direction: column;
+}
+#top {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    justify-content: space-between;
+    height: 21%;
+}
+#rg {
+    display: block;
+    text-align: left;
+    width: 100dvw;
+    height: auto;
+    object-fit: contain;
+    margin-left: 2dvw;
+    margin-top: 2dvh;
+}
+#rg2 {
+    margin-right: 2dvw;
+    margin-top: 2dvh;
+    font-family: "Noto Sans JP", sans-serif;
+}
+#ty {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    height: 58%;
+}
+#pt {
+    height: 21%;
+    font-family: "Noto Sans JP", sans-serif;
+}
+#ptm {
+    margin-left: 2dvw;
+}
+#section2 {
+    width: 100%;
+    height: 90dvh;
+    display: flex;
+    flex-direction: column;
+}
+#top2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    height: 20%;
+}
+#pt2 {
+    text-align: center;
+    line-height: 6dvh;
+    margin: 10dvh 10dvw;
+    font-family: "Shippori Mincho", serif;
+    font-weight: 500;
+    font-style: normal;
+    height: 80%;
+}
+#section3 {
+    width: 100%;
+    height: 70dvh;
+    display: flex;
+    flex-direction: column;
+}
+#top3 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    height: 30%;
+}
+#pt3 {
+    text-align: center;
+    margin: auto 10dvw;
+    line-height: 6dvh;
+    letter-spacing: 1dvw;
+    margin: 10dvh 10dvw;
+    font-family: "Shippori Mincho", serif;
+    font-weight: 500;
+    font-style: normal;
+    height: 70%;
+}
+#section4 {
+    width: 100%;
+    height: 120dvh;
+    display: flex;
+    flex-direction: column;
+}
+#top4 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    height: 20%;
+}
+#ar {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin: 10dvh 5dvw;
+    font-family: "Shippori Mincho", serif;
+    font-weight: 500;
+    font-style: normal;
+    height: 80%;
+}
+#h3 {
+    font-size: 20px;
+}
+#tkev {
+    font-size: 20px;
+}
+#arp {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    line-height: 6dvh;
+    margin-left: 5dvw;
+    margin-right: 2dvw;
+    font-size: 14px;
+}
+#arpkubota {
+    text-align: right;
+    object-fit: contain;
+    margin-right: 5dvw;
+}
+#section6 {
+    width: auto;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+#top6 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Kaisei Opti", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    height: 30%;
+}
+#map {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-left: 5dvw;
+    height: 70%;
+}
+#pt5 {
+    text-align: left;
+    margin-left: 2dvw;
+    margin-right: 5dvw;
+    font-family: "Shippori Mincho", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+#ac {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    object-fit: contain;
+    margin: 3dvh 30dvw;
+}
+@media screen and (max-width: 480px) {
+#arpkubota img {
+    width: 30dvw ;
+    display: flex;
+    text-align: right;
+    order: 0;
+}
+#top4 {
+    order: -1;
+}
+}
+@media screen and (max-width: 480px) {
+#arp p {
+    line-height: 4dvh;
+    margin-right: 3dvw;
+}
+#ar {
+    display: flex;
+    flex-direction: column;
+    margin: 5dvh 5dvw;
+}
+#arp {
+    display: flex;
+    order: 1;
+    margin: auto;
+}
+#pt2 {
+    font-size: 14px;
+    line-height: 4dvh;
+    margin: 5dvh 5dvw;
+}
+#pt3 {
+    font-size: 14px;
+    letter-spacing: 0.5dvw;
+    margin: 5dvh 5dvw;
+}
+#map {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+#map iframe {
+    order: 0;
+}
+#pt5 {
+    font-size: 12px;
+    order: -1;
+    margin: auto 5dvw;
+}
+#ac {
+    margin: 2dvh 10dvw;
+}
+#rg {
+    width: 50%;
+}
+#rg2 {
+    font-size: 16px;
+}
+}
