@@ -103,7 +103,7 @@ body {
     text-align: center;
     margin: auto 10dvw;
     line-height: 6dvh;
-    letter-spacing: 1dvw;
+    letter-spacing: 0.5dvw;
     margin: 10dvh 10dvw;
     font-family: "Shippori Mincho", serif;
     font-weight: 500;
@@ -141,6 +141,9 @@ body {
     font-size: 20px;
 }
 #tkev {
+    font-family: "Kaisei Opti", serif;
+    font-weight: 700;
+    font-style: normal;
     font-size: 20px;
 }
 #arp {
