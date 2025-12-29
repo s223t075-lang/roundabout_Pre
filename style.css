@@ -110,6 +110,13 @@ body {
     font-style: normal;
     height: 70%;
 }
+#yoyaku {
+    background-color: rgb(255, 166, 166);
+    padding: 5px 10px;
+    border: 2px solid rgb(55, 20, 99);
+    border-radius: 8px;
+    margin-right: 40dvw;
+}
 #section4 {
     width: 100%;
     height: 120dvh;
@@ -136,6 +143,12 @@ body {
     font-weight: 500;
     font-style: normal;
     height: 80%;
+}
+#talkshow {
+    font-family: "Shippori Mincho", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 10dvw;
 }
 #h3 {
     font-size: 20px;
@@ -210,6 +223,9 @@ body {
 #top4 {
     order: -1;
 }
+#talkshow {
+    margin-left: 5dvw;
+}
 }
 @media screen and (max-width: 480px) {
 #arp p {
@@ -223,8 +239,8 @@ body {
 }
 #arp {
     display: flex;
-    order: 1;
     margin: auto;
+    order: 1;
 }
 #pt2 {
     font-size: 14px;
@@ -233,8 +249,11 @@ body {
 }
 #pt3 {
     font-size: 14px;
-    letter-spacing: 0.5dvw;
+    letter-spacing: 0.3dvw;
     margin: 5dvh 5dvw;
+}
+#yoyaku {
+    margin-right: 49dvw;
 }
 #map {
     display: flex;
