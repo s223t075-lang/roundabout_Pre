@@ -163,7 +163,7 @@ body {
 }
 #box {
     background-color: #ffc073; /* 水色の背景 */
-    padding: 2px;
+    padding: 2dvh;
     width: 35dvh;
     height: 6dvh;
     text-align: center;
@@ -281,5 +281,21 @@ a {
 }
 #rg2 {
     font-size: 16px;
+}
+}
+@media screen and (max-width: 540px) {
+#pt5 {
+    font-size: 14px;
+    margin: auto 10dvw;
+    order: -1;
+}
+#map {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+}
+#map iframe {
+    order: 0;
 }
 }
