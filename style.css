@@ -163,9 +163,10 @@ body {
 }
 #box {
     background-color: #ffc073; /* 水色の背景 */
-    padding: 1px;
-    width: 27dvh;
+    padding: 2px;
+    width: 35dvh;
     height: 6dvh;
+    text-align: center;
     border: 2px solid #0f4266;
     border-radius: 8px; /* 角を丸くする */
 }
