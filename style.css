@@ -180,7 +180,7 @@ a {
 }
 #section6 {
     width: auto;
-    height: 100dvh;
+    height: 130dvh;
     display: flex;
     flex-direction: column;
 }
@@ -193,14 +193,14 @@ a {
     font-weight: 700;
     font-style: normal;
     font-size: 28px;
-    height: 30%;
+    height: 20%;
 }
 #map {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
     margin-left: 5dvw;
-    height: 70%;
+    height: 80%;
 }
 #pt5 {
     text-align: left;
@@ -209,6 +209,7 @@ a {
     font-family: "Shippori Mincho", serif;
     font-weight: 500;
     font-style: normal;
+    font-size: 16px;
 }
 #ac {
     display: flex;
@@ -269,7 +270,6 @@ a {
     order: 0;
 }
 #pt5 {
-    font-size: 12px;
     order: -1;
     margin: auto 5dvw;
 }
@@ -285,8 +285,8 @@ a {
 }
 @media screen and (max-width: 540px) {
 #pt5 {
-    font-size: 14px;
-    margin: auto 10dvw;
+    font-size: 10px;
+    margin: 5dvh 5dvw;
     order: -1;
 }
 #map {
